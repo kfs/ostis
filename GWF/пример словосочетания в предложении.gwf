@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<GWF version="1.6">
+    <staticSector>
+        <node type="node/const/group" idtf="предложение английского языка" shapeColor="0" id="77153472" parent="0" left="0" top="0" right="199" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="125.5" y="265.5" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/group" idtf="словосочетание английского языка" shapeColor="0" id="75972104" parent="0" left="0" top="0" right="217" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="435" y="94" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/relation" idtf="употребление словосочетания*" shapeColor="0" id="75972248" parent="0" left="0" top="0" right="197" bottom="25" textColor="164" text_angle="0" text_font="Times New Roman [Arial]" font_size="10" x="363" y="259" haveBus="false">
+            <content type="0" mime_type="" file_name=""/>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="38333704" parent="0" x="441" y="183" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Chief Executive Officer]]></content>
+        </node>
+        <node type="node/const/general_node" idtf="" shapeColor="0" id="75973256" parent="0" x="223" y="182" haveBus="false">
+            <content type="1" mime_type="content/term" file_name=""><![CDATA[Typically, the CEO has responsibilities as a director, decision maker, leader, manager and executor.]]></content>
+        </node>
+        <pair type="pair/const/orient" idtf="" shapeColor="0" id="92948464" parent="0" id_b="38333704" id_e="75973256" b_x="441" b_y="183" e_x="223" e_y="182" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </pair>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="92947504" parent="0" id_b="77153472" id_e="75973256" b_x="125.5" b_y="265.5" e_x="223" e_y="182" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="39249632" parent="0" id_b="75972104" id_e="38333704" b_x="435" b_y="94" e_x="441" e_y="183" dotBBalance="0" dotEBalance="0">
+            <points/>
+        </arc>
+        <arc type="arc/const/pos" idtf="" shapeColor="0" id="92947344" parent="0" id_b="75972248" id_e="92948464" b_x="363" b_y="259" e_x="0" e_y="0" dotBBalance="0" dotEBalance="0.42045">
+            <points/>
+        </arc>
+    </staticSector>
+</GWF>
